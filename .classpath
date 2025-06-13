@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-23">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="BoardOfMessages"/>
+	<classpathentry kind="src" path="MovingBall"/>
+	<classpathentry kind="src" path="CircleMove"/>
+	<classpathentry kind="src" path="AnimationJavaFx"/>
+	<classpathentry kind="src" path="GenericWithHashMap"/>
+	<classpathentry kind="src" path="ParallelUpdateArray"/>
+	<classpathentry kind="src" path="SmallestRectangles"/>
+	<classpathentry kind="src" path="ParallelEncryption"/>
+	<classpathentry kind="src" path="AlarmPolymorphizm"/>
+	<classpathentry kind="src" path="ServerPaint"/>
+	<classpathentry kind="src" path="SortedCouplesGenerics"/>
+	<classpathentry kind="src" path="TeachingEnglish"/>
+	<classpathentry kind="src" path="CatchRandomRectGame"/>
+	<classpathentry kind="src" path="MathGame"/>
+	<classpathentry kind="src" path="GameWordJavaFX"/>
+	<classpathentry kind="src" path="ServerRectSend"/>
+	<classpathentry kind="src" path="GenericGroup"/>
+	<classpathentry kind="src" path="ParallelGarage"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/javafx-sdk-23.0.2/lib/javafx.base.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/javafx-sdk-23.0.2/lib/javafx.controls.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/javafx-sdk-23.0.2/lib/javafx.fxml.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/javafx-sdk-23.0.2/lib/javafx.graphics.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/javafx-sdk-23.0.2/lib/javafx.media.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/javafx-sdk-23.0.2/lib/javafx.swing.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/javafx-sdk-23.0.2/lib/javafx.web.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/javafx-sdk-23.0.2/lib/javafx-swt.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="isSortedExcersice"/>
+	<classpathentry kind="src" path="reduceStackExcersice"/>
+	<classpathentry kind="src" path="BoardGame"/>
+	<classpathentry kind="src" path="ResourcesParallel"/>
+	<classpathentry kind="src" path="ChaseMouse"/>
+	<classpathentry kind="src" path="Colors"/>
+	<classpathentry kind="src" path="DrawLines"/>
+	<classpathentry kind="src" path="MagicBox"/>
+	<classpathentry kind="src" path="Quiz"/>
+	<classpathentry kind="src" path="Soldier"/>
+	<classpathentry kind="src" path="TCP-DecimalToBinary"/>
+	<classpathentry kind="src" path="TwinLines"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

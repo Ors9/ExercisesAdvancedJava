@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AnimationController">
+   <children>
+      <Canvas fx:id="canv" height="385.0" onMouseClicked="#onMousePressed" width="598.0" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Canvas>
+      <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="41.0" prefWidth="580.0" spacing="50.0" style="-fx-border-color: lightGray;" VBox.vgrow="NEVER">
+         <children>
+            <RadioButton fx:id="rectBtn" mnemonicParsing="false" onAction="#onRectPressed" selected="true" text="Rectangle" HBox.hgrow="ALWAYS">
+               <toggleGroup>
+                  <ToggleGroup fx:id="groupButtons" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="circleBtn" mnemonicParsing="false" onAction="#onCirclePressed" text="Circle" toggleGroup="$groupButtons" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+   </children>
+</VBox>
